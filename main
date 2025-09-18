@@ -1,0 +1,21 @@
+What is a Servo Motor?
+
+A servo motor is a type of motor that rotates within a limited angle (usually 0° to 180°).
+It is controlled by a PWM (Pulse Width Modulation) signal.
+
+Common hobby servo: SG90 (9g) or MG995.
+Inside it has:
+A DC motor
+A gearbox
+A feedback potentiometer
+A control circuit
+
+🔹 Why Use Servo Motors?
+Precise position control.
+Low power and easy to control with Arduino.
+Common in:RC cars, boats, airplanes Robotics arms DIY automation projects
+
+🔹 Arduino with Servo Motor (Pin Connection) Servo Motor Pin	Arduino Uno Pin
+VCC (Red)	5V
+GND (Brown/Black)	GND
+Signal (Orange/Yellow)	D9 (PWM pin)
